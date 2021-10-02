@@ -132,10 +132,12 @@ RUN build_deps=" \
         geoip2 \
         git-aggregator \
         inotify \
+        pdfminer.six \
         pg_activity \
         phonenumbers \
         plumbum \
         pudb \
+        python-magic \
         watchdog \
         wdb \
     && (python3 -m compileall -q /usr/local/lib/python3.8/ || true) \
